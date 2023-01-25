@@ -25,7 +25,9 @@ SRC_A  = makefile
 # project header file locations
 INC_F  = include
 
+# upload and run
 uprun: upload run
+
 # build targets
 all: $(BUILD)/$(PROJECT).bin
 
