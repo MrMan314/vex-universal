@@ -1,4 +1,4 @@
-Cross-platform VEXcode Pro v5 build environment
+Cross-platform VEXcode Pro v5 build environment (Mainly for linux because it is "nOt sUPporTEd"
 
 # Requirements:
 * [arm-none-eabi toolchain](https://developer.arm.com/downloads/-/arm-gnu-toolchain-downloads)
