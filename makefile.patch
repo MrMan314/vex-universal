@@ -1,0 +1,16 @@
+4a5,6
+> TOOLCHAIN = $(CURDIR)/sdk
+> SLOT = 1
+30a33,44
+> 
+> # upload
+> upload: $(BUILD)/$(PROJECT).bin
+> 	pros upload --target v5 $< --slot $(SLOT)
+> 
+> # run, upload first
+> run:
+> 	pros v5 run $(SLOT)
+> 
+> # stop
+> stop:
+> 	pros v5 stop
